@@ -3,7 +3,7 @@ const express = require('express');
 const fs = require('fs');
 const https = require('https');
 
-const cupcakeStoreRouter = require('./routes/cupcake-store-router');
+const { router: cupcakeStoreRouter } = require('./routes/cupcake-store-router');
 
 const app = express();
 app.use(express.json());
