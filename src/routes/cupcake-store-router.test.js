@@ -154,7 +154,7 @@ describe('Cupcake store router', () => {
                         });
         });
 
-        it("invalid id", () => {
+        it("validation exception", () => {
             request(app).put('/cupcake/1')
                         .set('Content-Type', 'application/json')
                         .set('Accept', 'application/json')
