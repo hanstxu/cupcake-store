@@ -1,0 +1,37 @@
+{
+  "name": "cupcake-store",
+  "version": "1.0.0",
+  "description": "Prototype for an online cupcake store",
+  "main": "server.js",
+  "scripts": {
+    "test": "find src -name '*.test.js' | xargs mocha",
+    "test:validator": "mocha src/utility/validator.test.js",
+    "test:route": "mocha src/routes/cupcake-store-router.test.js",
+    "start": "node src/server.js",
+    "https": "node src/server.js --https"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanstxu/cupcake-store.git"
+  },
+  "keywords": [
+    "cupcake",
+    "store"
+  ],
+  "author": "Steven Xu",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/hanstxu/cupcake-store/issues"
+  },
+  "homepage": "https://github.com/hanstxu/cupcake-store#readme",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "express": "^4.18.2",
+    "pg-promise": "^11.5.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1",
+    "supertest": "^6.3.4"
+  }
+}

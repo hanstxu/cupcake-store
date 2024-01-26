@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "port": 7501,
+    "database": "cupcake-store",
+    "user": "postgres",
+    "password": "cupcakes"
+}
