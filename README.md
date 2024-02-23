@@ -1,6 +1,6 @@
 # Cupcake store
 
-A crud app for a simple cupcake store in the node js ecosystem
+A crud app for a simple cupcake store in the node js ecosystem; this was a take-home challenge for 8flow.ai
 
 ## Dependencies
 
